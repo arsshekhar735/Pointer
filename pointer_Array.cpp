@@ -49,4 +49,9 @@ In short, the symbol table is there to manage variables during compilation, but 
         cout<<"The address of the "<<i<<" index is "<<&arr[i]<<endl;
     }
 
+//What is the differece between arr and &arr?
+/*
+    Arr=> It refers to the address of the first element of the array.
+    &Arr => It refers to the address of the entire element of the array.
+*/
 }
