@@ -54,4 +54,13 @@ In short, the symbol table is there to manage variables during compilation, but 
     Arr=> It refers to the address of the first element of the array.
     &Arr => It refers to the address of the entire element of the array.
 */
+
+//Now the print the value of all the integer
+int *ptr1 = arr;//Storing the address of the first element of the array
+for(int i = 0; i< 5; i++)
+{
+    cout<<"The value of the "<<i<<" index is "<<ptr1[i]<<endl;
+}
+
+
 }
