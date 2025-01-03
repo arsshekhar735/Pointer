@@ -14,7 +14,7 @@ int main()
 
     //How does the value of a get printed
     int a = 5;
-    cout << a;
+    cout << a<<endl;
     /*
         this thing done in this.
         
@@ -43,6 +43,10 @@ In short, the symbol table is there to manage variables during compilation, but 
 
 
     */
-
+//Now the print the address of the all indexs of the array
+    for (int i = 0; i < 5; i++)
+    {
+        cout<<"The address of the "<<i<<" index is "<<&arr[i]<<endl;
+    }
 
 }
