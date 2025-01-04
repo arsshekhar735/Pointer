@@ -61,4 +61,4 @@ With each example, you’ll gain both the knowledge and the practice needed to w
 1. **Clone the Repo:**
 
    ```bash
-   git clone https://github.com/arsshekhar735/Pointer.git
+  https://github.com/arsshekhar735/Pointer.git
